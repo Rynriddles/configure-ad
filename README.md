@@ -45,6 +45,18 @@ After the virtual machines have been created, we remote into the server. From th
 <br />
 
 <p>
+<img src="https://i.imgur.com/5taHASY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+From there, we create an organization for admins and an organization for users. We then create an admin account named Jane Doe and we use it to log into the client-1 virtual machine.
+</p>
+                                                                                                 <p>
+<img src="https://i.imgur.com/BXQtukV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In azure, we join client-1 to the domain controller by setting the DNS of client-1 to the private IP address of the domain controller (in this case, 10.0.0.6).
+</p>
+                                                                                                 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
