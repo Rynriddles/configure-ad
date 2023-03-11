@@ -59,7 +59,8 @@ From there, we create an organization for admins and an organization for users. 
 In azure, we join client-1 to the domain controller by setting the DNS of client-1 to the private IP address of the domain controller (in this case, 10.0.0.6). After restarting the virtual machine in Azure, we log into client one. We go to settings and then the about tab. We go to "rename this pc" and change the domain. We enter the domain that the server is apart of and we get the confirmation that we have successfully joined the server.
 </p>
                                                                                                  <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/t5Y7XfY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NYxAwya.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                 
 </p>
 <p>
 Once the client machine has been joined to the domain, we go back into the domain controller. From here, we enable remote desktop for all users. Normally this should be implemented along with a policy, but for the purposes of this example we will keep it simple. We will then run powershell ISE as an adminstrator and use a pre-written script to populate active directory with random users
