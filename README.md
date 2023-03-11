@@ -19,10 +19,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1: Deployment of Domain Controller and Client Desktop in Azure
-- Step 2: Remote Into Server, Download Active Directory, and Promote Server to Domain Controller
-- Step 3
-- Step 4
+- Step 1: Deployment of domain controller and client desktop in azure
+- Step 2: Remote into server, download active directory, and promote server to domain controller
+- Step 3: Create organizations for admins and employees. Create an admin account to help configure client one
+- Step 4: Join client one to the domain controller
+- Step 5: Run a PowerShell ISE script to populate active directory with users (script isn't necessary, but this is a quick way to populate users)
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -64,11 +65,8 @@ In azure, we join client-1 to the domain controller by setting the DNS of client
 </p>
 <p>
 Once the client machine has been joined to the domain, we go back into the domain controller. From here, we enable remote desktop for all users. Normally this should be implemented along with a policy, but for the purposes of this example we will keep it simple. We will then run powershell ISE as an adminstrator and use a pre-written script to populate active directory with random users
-</p>
-                                                                                                 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
-Once the client machine has been joined to the domain, we go back into the domain controller. From here, we we enable remote desktop for all users. Normally this should be implemented along with a policy, but for the purposes of this example we will keep it simple.
+From there we can use any of the created users to log into client-1. You can then access the properties of each user individually and reset their password, lock their account, delete their account, set their permissions etc. We will use a random user to go over the file permissons section, but this is how you install and configure active directory!
 </p>                                                                                                
 <br />
