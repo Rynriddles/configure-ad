@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://imgur.com/oblzOIr"80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/gallery/oblzOIr"80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In this step, we create the domain controller and the client desktop we will be using in this lab. We start by creating a resource group within Azure, and then from there we create two virtual machines. We must ensure that both virtual machines are located within the same region and are on the same network. One will be configured as a server, the other will be configured as a desktop running on the windows 10 operating system.
