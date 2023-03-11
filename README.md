@@ -52,9 +52,11 @@ From there, we create an organization for admins and an organization for users. 
 </p>
                                                                                                  <p>
 <img src="https://i.imgur.com/BXQtukV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gh1IFQw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IiToWy2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In azure, we join client-1 to the domain controller by setting the DNS of client-1 to the private IP address of the domain controller (in this case, 10.0.0.6).
+In azure, we join client-1 to the domain controller by setting the DNS of client-1 to the private IP address of the domain controller (in this case, 10.0.0.6). After restarting the virtual machine in Azure, we log into client one. We go to settings and then the about tab. We go to "rename this pc" and change the domain. We enter the domain that the server is apart of and we get the confirmation that we have successfully joined the server.
 </p>
                                                                                                  <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
