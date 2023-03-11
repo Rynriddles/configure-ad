@@ -62,6 +62,12 @@ In azure, we join client-1 to the domain controller by setting the DNS of client
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once the client machine has been joined to the domain, we go back into the domain controller. From here, we enable remote desktop for all users. Normally this should be implemented along with a policy, but for the purposes of this example we will keep it simple. We will then run powershell ISE as an adminstrator and use a pre-written script to populate active directory with random users
 </p>
+                                                                                                 
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Once the client machine has been joined to the domain, we go back into the domain controller. From here, we we enable remote desktop for all users. Normally this should be implemented along with a policy, but for the purposes of this example we will keep it simple.
+</p>                                                                                                
 <br />
