@@ -20,7 +20,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1: Deployment of Domain Controller and Client Desktop in Azure
-- Step 2
+- Step 2: Remote Into Server, Download Active Directory, and Promote Server to Domain Controller
 - Step 3
 - Step 4
 
@@ -35,10 +35,12 @@ In this step, we create the domain controller and the client desktop we will be 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tnWwa6y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p><img src="https://i.imgur.com/wIX19Jd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After the virtual machines have been created, we remote into the server. From the server manager, we download active directory domain services. Once that has been downloaded, we click the flag in the top right and turn the server into a domain controller. The active directory tab should be there once the computer restarts.
 </p>
 <br />
 
